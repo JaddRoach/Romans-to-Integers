@@ -23,7 +23,7 @@ roman_value = 0             #       one value from the roman value list
 integer_values = []         #       integer value list
 
 # print(roman_values)         #       Displays the list of integer values in roman_values list
-# roman_values.reverse()      #       Reverses the list to allow for smallest numbers to be tested first
+roman_values.reverse()      #       Reverses the list to allow for smallest numbers to be tested first
 # print(roman_values)         #       Displays list again
 
 while counter < len(roman_values):

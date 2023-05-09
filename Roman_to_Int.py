@@ -22,9 +22,9 @@ counter = 0                 #       iterates through the while loop
 roman_value = 0             #       one value from the roman value list
 integer_values = []         #       integer value list
 
-print(roman_values)         #       Displays the list of integer values in roman_values list
-roman_values.reverse()      #       Reverses the list to allow for smallest numbers to be tested first
-print(roman_values)         #       Displays list again
+# print(roman_values)         #       Displays the list of integer values in roman_values list
+# roman_values.reverse()      #       Reverses the list to allow for smallest numbers to be tested first
+# print(roman_values)         #       Displays list again
 
 while counter < len(roman_values):
     if roman_values[counter] >= roman_value:
@@ -35,7 +35,7 @@ while counter < len(roman_values):
         integer_values.append(roman_value*-1)
     counter += 1
 
-print(integer_values)
+# print(integer_values)
 print(sum(integer_values))      # Sums the integers in list to get the converted roman numeral in integers
 
 
